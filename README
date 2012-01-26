@@ -1,0 +1,23 @@
+A very basic report for your Readability.
+
+* Number of words and articles read over a period of time
+* Number of unread word and article counts
+
+### Usage
+
+
+Create an `auth.py` module with the following definitions:
+
+    API_KEY = '<readability_api_key>'
+    API_SECRET = '<readability_api_secret>'
+    XAUTH_TOKEN = ('<xauth>', '<tuple>')
+
+Then run `python report.py <archived_since> <archived_until>`.
+
+### Future
+
+* Sparklines
+* Caching
+* New words encountered
+* Top words over a period
+* Languages

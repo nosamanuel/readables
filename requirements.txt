@@ -1,0 +1,1 @@
+-e git+https://github.com/nosamanuel/python-readability-api.git@develop#egg=readability-api
