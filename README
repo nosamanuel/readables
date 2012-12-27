@@ -1,23 +1,14 @@
-A very basic report for your Readability.
-
-* Number of words and articles read over a period of time
-* Number of unread word and article counts
-
-### Usage
+A year end report for your longreads account.
 
 
-Create an `auth.py` module with the following definitions:
+<hr>
 
-    API_KEY = '<readability_api_key>'
-    API_SECRET = '<readability_api_secret>'
-    XAUTH_TOKEN = ('<xauth>', '<tuple>')
 
-Then run `python report.py <archived_since> <archived_until>`.
+Set your readability credentials in your environment:
 
-### Future
+    export READABILITY_API_KEY='<readability_api_key>'
+    export READABILITY_API_SECRET='<readability_api_secret>'
+    export READABILITY_XAUTH_TOKEN_0='<xauth>'
+    export READABILITY_XAUTH_TOKEN_1='<tuple>'
 
-* Sparklines
-* Caching
-* New words encountered
-* Top words over a period
-* Languages
+Then run `python report.py` to get a report for 2012.
